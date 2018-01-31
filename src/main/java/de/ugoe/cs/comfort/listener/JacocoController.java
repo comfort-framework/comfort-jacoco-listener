@@ -20,10 +20,10 @@
 
 package de.ugoe.cs.comfort.listener;
 
+import java.io.IOException;
+
 import org.jacoco.agent.rt.IAgent;
 import org.jacoco.agent.rt.RT;
-
-import java.io.IOException;
 
 // Based on: https://github.com/SonarSource/sonar-java/blob/master
 // /sonar-jacoco-listeners/src/main/java/org/sonar/java/jacoco/JacocoController.java
