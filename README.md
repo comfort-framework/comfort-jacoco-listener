@@ -82,11 +82,19 @@ Add the new listener to the test process
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.20.1</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.maven.surefire</groupId>
+            <artifactId>surefire-junit47</artifactId>
+            <version>2.20.1</version>
+        </dependency>
+    </dependencies>
     <configuration>
         <properties>
             <property>
                 <name>listener</name>
-                    <value>de.ugoe.cs.comfort.listener.JUnitListener</value>
+                <value>de.ugoe.cs.comfort.listener.JUnitListener</value>
             </property>
         </properties>
     </configuration>

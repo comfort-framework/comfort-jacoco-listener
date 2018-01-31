@@ -17,6 +17,10 @@ dependencies {
     compile group: 'org.mockito', name: 'mockito-core', version: '2.7.13'
 }
 
+test {
+    exclude '**/**Failure.class'
+    exclude '**/**Success.class'
+}
 
 jacocoTestReport {
     reports {
