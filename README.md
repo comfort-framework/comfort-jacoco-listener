@@ -1,7 +1,6 @@
 # COMFORT Jacoco Listener
 [![Build Status](https://travis-ci.org/comfort-framework/comfort-jacoco-listener.svg?branch=master)](https://travis-ci.org/comfort-framework/comfort-jacoco-listener)
 [![codecov](https://codecov.io/gh/comfort-framework/comfort-jacoco-listener/branch/master/graph/badge.svg)](https://codecov.io/gh/comfort-framework/comfort-jacoco-listener)
-[![BCH compliance](https://bettercodehub.com/edge/badge/comfort-framework/comfort-jacoco-listener?branch=master)](https://bettercodehub.com/)
 
 
 ### Description
